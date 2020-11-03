@@ -1,4 +1,7 @@
 ## Solution
+Eine Lösung diese Sicherheitslücke zu schließen ist es die Daten nach der eingabe, also vor dem speichern zu validieren oder bei der Ausabe zu Filtern.
+
+
 Enteferne die HTML Tags/ Zeichenketten aus der URL mit `htmlentities ($_GET['inhalt'])` alternative `strip_tags ($_GET['inhalt'])`
 
 ```shell

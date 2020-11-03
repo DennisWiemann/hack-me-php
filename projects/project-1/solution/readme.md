@@ -1,5 +1,5 @@
 ## Solution
-Enteferne die HTML Tags/ Zeichenketten aus der URL mit `filter_input`
+Eine Lösung die Sicherheitslücke zu schließen ist Formulare per HTTP-POST zu senden und validieren, die Variablen zu filtern oder CSRF-Tokens zu verwenden.
 
 ```shell
 php -S localhost:8123
