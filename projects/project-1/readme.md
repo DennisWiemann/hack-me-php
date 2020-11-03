@@ -1,6 +1,6 @@
-## Reflected XXS
+## Reflected XSS
 [zur Lösung](solution/readme.md)  
-Reflected XXS Sicherheitslücken werden meist durch normale Anfragen, die per HTML-GET entgegengenommen werden eingeschleust. Dabei wird dem Opfer ein Link zugespielt, indem der Script-Tag als Parameter übergeben wird und darauffolged beim Opfer ausgeführt wird. 
+Reflected XSS Sicherheitslücken werden meist durch normale Anfragen, die per HTML-GET entgegengenommen werden eingeschleust. Dabei wird dem Opfer ein Link zugespielt, indem der Script-Tag als Parameter übergeben wird und darauffolged beim Opfer ausgeführt wird. 
 
 ```shell
 php -S localhost:8123
